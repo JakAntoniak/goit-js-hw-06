@@ -23,8 +23,12 @@ button {
   cursor: pointer;
 }
 
+.gallery {
+  list-style-type: none;
+}
+
 .gallery__img {
   width: 500px;
-  border: 15px solid red;
+  border: 5px solid red;
   justify-content: center;
 }

@@ -17,7 +17,7 @@ const gallery = document.querySelector(".gallery");
 images.forEach((img) => {
   gallery.insertAdjacentHTML(
     "afterbegin",
-    `<li><img src="${img.url}" alt="${img.alt}"</img></li>`
+    `<li><img src="${img.url}" alt="${img.alt}"></img></li>`
   );
   const imageStyle = document.querySelectorAll("img");
   imageStyle.forEach((el) => {
